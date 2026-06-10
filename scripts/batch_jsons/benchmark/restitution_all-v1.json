@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "input_video": "assets/qualitative/restitution/rubber_duck_1.png",
+    "prompt": "A rubber duck falls onto the ground naturally due to gravity and bounces up after impact. The only thing that is moving in the video is the rubber duck. All other objects are stationary. The video accurately captures the physics of rubber duck falling and bouncing off a surface.",
+    "segmentation_pkl": "assets/qualitative/masks/rubber_duck_1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      7
+    ],
+    "output_video": "rubber_duck1_v2w_high_bounce_p2.mp4",
+    "bounciness": "high",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 2,
+    "input_video": "assets/qualitative/restitution/rubber_duck_1.png",
+    "prompt": "A rubber duck falls onto the ground naturally due to gravity and bounces up after impact. The only thing that is moving in the video is the rubber duck. All other objects are stationary. The video accurately captures the physics of rubber duck falling and bouncing off a surface.",
+    "segmentation_pkl": "assets/qualitative/masks/rubber_duck_1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      7
+    ],
+    "output_video": "rubber_duck1_v2w_low_bounce_p2.mp4",
+    "bounciness": "low",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 3,
+    "input_video": "assets/qualitative/restitution/tennis_ball_bounce_2.png",
+    "prompt": "A tennis ball falls onto the ground naturally due to gravity and bounces up after impact. The only thing that is moving in the video is the tennis ball. All other objects are stationary. The video accurately captures the physics of tennis ball falling and bouncing off a surface.",
+    "segmentation_pkl": "assets/qualitative/masks/tennis_ball_bounce_2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "tennis_ball_bounce_2_v2w_high_bounce_p2.mp4",
+    "bounciness": "high",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 4,
+    "input_video": "assets/qualitative/restitution/tennis_ball_bounce_2.png",
+    "prompt": "A tennis ball falls onto the ground naturally due to gravity and bounces up after impact. The only thing that is moving in the video is the tennis ball. All other objects are stationary. The video accurately captures the physics of tennis ball falling and bouncing off a surface.",
+    "segmentation_pkl": "assets/qualitative/masks/tennis_ball_bounce_2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "tennis_ball_bounce_2_v2w_low_bounce_p2.mp4",
+    "bounciness": "low",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 5,
+    "input_video": "assets/qualitative/restitution/basketball_bounce_v1.jpg",
+    "prompt": "A basketball is dropping from the player's hand and falls to the ground due to gravity. The ball after hitting the ground bounces off. The only thing that is moving in the video is the basketball. All other objects are stationary including the player. The video accurately captures the physics of basketball bouncing from a camera that is stationary.",
+    "segmentation_pkl": "assets/qualitative/masks/basketball_bounce_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      8,
+      2
+    ],
+    "output_video": "basketball_bounce_v1_low_bounce_p1.mp4",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "bounciness": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 6,
+    "input_video": "assets/qualitative/restitution/basketball_bounce_v1.jpg",
+    "prompt": "A basketball is dropping from the player's hand and falls to the ground due to gravity. The ball after hitting the ground bounces off. The only thing that is moving in the video is the basketball. All other objects are stationary including the player. The video accurately captures the physics of basketball bouncing from a camera that is stationary.",
+    "segmentation_pkl": "assets/qualitative/masks/basketball_bounce_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      8,
+      2
+    ],
+    "output_video": "basketball_bounce_v1_high_bounce_p1.mp4",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "bounciness": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 7,
+    "input_video": "assets/qualitative/restitution/trampoline_v1.jpg",
+    "prompt": "A person bounces up and down on a trampoline due to gravity and the elastic rebound of the trampoline surface. The only thing that is moving in the video is the person. All other objects, including the trampoline frame and background, are stationary. The video accurately captures the physics of a person bouncing vertically on a trampoline.",
+    "segmentation_pkl": "assets/qualitative/masks/trampoline_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      1,
+      2
+    ],
+    "output_video": "trampoline_v1_low_bounce_p2.mp4",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "bounciness": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 8,
+    "input_video": "assets/qualitative/restitution/trampoline_v1.jpg",
+    "prompt": "A person bounces up and down on a trampoline due to gravity and the elastic rebound of the trampoline surface. The only thing that is moving in the video is the person. All other objects, including the trampoline frame and background, are stationary. The video accurately captures the physics of a person bouncing vertically on a trampoline.",
+    "segmentation_pkl": "assets/qualitative/masks/trampoline_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      1,
+      2
+    ],
+    "output_video": "trampoline_v1_high_bounce_p2.mp4",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "bounciness": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 9,
+    "input_video": "assets/qualitative/restitution/trampoline_v2.jpg",
+    "prompt": "A person bounces up and down on a trampoline due to gravity and the elastic rebound of the trampoline surface. The only thing that is moving in the video is the person. All other objects, including the trampoline frame and background, are stationary. The video accurately captures the physics of a person bouncing vertically on a trampoline.",
+    "segmentation_pkl": "assets/qualitative/masks/trampoline_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      6,
+      2
+    ],
+    "output_video": "trampoline_v2_low_bounce_p2.mp4",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "bounciness": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 10,
+    "input_video": "assets/qualitative/restitution/trampoline_v2.jpg",
+    "prompt": "A person bounces up and down on a trampoline due to gravity and the elastic rebound of the trampoline surface. The only thing that is moving in the video is the person. All other objects, including the trampoline frame and background, are stationary. The video accurately captures the physics of a person bouncing vertically on a trampoline.",
+    "segmentation_pkl": "assets/qualitative/masks/trampoline_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      6,
+      2
+    ],
+    "output_video": "trampoline_v2_high_bounce_p2.mp4",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "bounciness": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 11,
+    "input_video": "assets/qualitative/restitution/ball_bounce_2.jpg",
+    "prompt": "A soccer ball falls onto the ground naturally due to gravity and bounces up after impact. The only thing that is moving in the video is the soccer ball. All other objects are stationary. The video accurately captures the physics of soccer ball falling and bouncing off a surface.",
+    "segmentation_pkl": "assets/qualitative/masks/ball_bounce_2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      10
+    ],
+    "output_video": "ball_bounce_2_v2w_high_bounce_p2.mp4",
+    "bounciness": "high",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 12,
+    "input_video": "assets/qualitative/restitution/ball_bounce_2.jpg",
+    "prompt": "A soccer ball falls onto the ground naturally due to gravity and bounces up after impact. The only thing that is moving in the video is the soccer ball. All other objects are stationary. The video accurately captures the physics of soccer ball falling and bouncing off a surface.",
+    "segmentation_pkl": "assets/qualitative/masks/ball_bounce_2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      10
+    ],
+    "output_video": "ball_bounce_2_v2w_low_bounce_p2.mp4",
+    "bounciness": "low",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 13,
+    "input_video": "assets/qualitative/restitution/football_juggle_v1.jpg",
+    "prompt": "A person wearing a green soccer jersey and black Adidas track pants is juggling a soccer ball outdoors on a tiled pavement. The camera stays fixed in place, showing the person from the waist down. Only the soccer ball and the person\u2019s right leg move \u2014 the rest of the body stays still. The leg smoothly lifts and taps the ball repeatedly in the air with controlled motions. Bright daylight, clear shadows, and realistic ball physics. The scene loops naturally as the ball keeps bouncing up and down.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      2,
+      0
+    ],
+    "output_video": "football_juggle_v1_v2w_high_bounce_p1.mp4",
+    "bounciness": "high",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 14,
+    "input_video": "assets/qualitative/restitution/football_juggle_v1.jpg",
+    "prompt": "A person wearing a green soccer jersey and black Adidas track pants is juggling a soccer ball outdoors on a tiled pavement. The camera stays fixed in place, showing the person from the waist down. Only the soccer ball and the person\u2019s right leg move \u2014 the rest of the body stays still. The leg smoothly lifts and taps the ball repeatedly in the air with controlled motions. Bright daylight, clear shadows, and realistic ball physics. The scene loops naturally as the ball keeps bouncing up and down.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      2,
+      0
+    ],
+    "output_video": "football_juggle_v1_v2w_low_bounce_p1.mp4",
+    "bounciness": "low",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 15,
+    "input_video": "assets/qualitative/restitution/football_juggle_v2.jpg",
+    "prompt": "A soccer player wearing dark blue shorts, long navy socks, and black cleats is juggling a yellow patterned soccer ball on a grassy field. The camera is close-up, showing only the player\u2019s legs and the ball. The background stays static and clear, while only the player\u2019s dominant leg and the ball move dynamically. The leg lifts rhythmically to keep the ball in the air with small, precise taps. The motion is smooth and realistic with accurate ball physics, grass shadows, and sunlight reflections. The scene loops seamlessly as the ball continues to bounce in place.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      5,
+      1
+    ],
+    "output_video": "football_juggle_v2_v2w_high_bounce_p1.mp4",
+    "bounciness": "high",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 16,
+    "input_video": "assets/qualitative/restitution/football_juggle_v2.jpg",
+    "prompt": "A soccer player wearing dark blue shorts, long navy socks, and black cleats is juggling a yellow patterned soccer ball on a grassy field. The camera is close-up, showing only the player\u2019s legs and the ball. The background stays static and clear, while only the player\u2019s dominant leg and the ball move dynamically. The leg lifts rhythmically to keep the ball in the air with small, precise taps. The motion is smooth and realistic with accurate ball physics, grass shadows, and sunlight reflections. The scene loops seamlessly as the ball continues to bounce in place.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      5,
+      1
+    ],
+    "output_video": "football_juggle_v2_v2w_low_bounce_p1.mp4",
+    "bounciness": "low",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 17,
+    "input_video": "assets/qualitative/restitution/football_juggle_v3.jpg",
+    "prompt": "A soccer player dressed in green shorts and socks is juggling a white patterned soccer ball on a synthetic turf field. The camera captures only the player\u2019s legs and the ball in mid-air. The background remains completely still, while only the player\u2019s right leg and the ball move in rhythm. The leg lifts and taps the ball upward in smooth, controlled motions, keeping it bouncing continuously. The lighting is bright and natural, showing crisp shadows on the turf and realistic ball rotation. The video loops seamlessly as the juggling continues with steady ball physics and minimal camera movement.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v3_masks.pkl",
+    "needed_segmentation_ids": [
+      32,
+      35
+    ],
+    "output_video": "football_juggle_v3_v2w_high_bounce_p1.mp4",
+    "bounciness": "high",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 18,
+    "input_video": "assets/qualitative/restitution/football_juggle_v3.jpg",
+    "prompt": "A soccer player dressed in green shorts and socks is juggling a white patterned soccer ball on a synthetic turf field. The camera captures only the player\u2019s legs and the ball in mid-air. The background remains completely still, while only the player\u2019s right leg and the ball move in rhythm. The leg lifts and taps the ball upward in smooth, controlled motions, keeping it bouncing continuously. The lighting is bright and natural, showing crisp shadows on the turf and realistic ball rotation. The video loops seamlessly as the juggling continues with steady ball physics and minimal camera movement.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v3_masks.pkl",
+    "needed_segmentation_ids": [
+      32,
+      35
+    ],
+    "output_video": "football_juggle_v3_v2w_low_bounce_p1.mp4",
+    "bounciness": "low",
+    "props_of_interest": [
+      "bounciness"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  }
+]

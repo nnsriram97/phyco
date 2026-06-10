@@ -1,0 +1,616 @@
+[
+  {
+    "id": 1,
+    "input_video": "assets/qualitative/deformation/trampoline_v2.jpg",
+    "prompt": "A rigid person drops onto a soft, elastic green-framed trampoline causing the trampoline to deform and stretch under the impact. The video clearly demonstrates the physics of the trampoline's deformation under the weight of the person, captured from a fixed camera perspective.",
+    "segmentation_pkl": "assets/qualitative/masks/trampoline_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      6,
+      2
+    ],
+    "fg_seg_ids": [
+      6
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "trampoline_v2_low_deformable_p2.mp4",
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 2,
+    "input_video": "assets/qualitative/deformation/trampoline_v2.jpg",
+    "prompt": "A rigid person drops onto a soft, elastic green-framed trampoline causing the trampoline to deform and stretch under the impact. The video clearly demonstrates the physics of the trampoline's deformation under the weight of the person, captured from a fixed camera perspective.",
+    "segmentation_pkl": "assets/qualitative/masks/trampoline_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      6,
+      2
+    ],
+    "fg_seg_ids": [
+      6
+    ],
+    "bg_seg_id": 2,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "trampoline_v2_high_deformable_p2.mp4",
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 3,
+    "input_video": "assets/qualitative/deformation/ball_bounce_2.jpg",
+    "prompt": "A deformable elastic soccer ball falls onto the ground naturally due to gravity.",
+    "segmentation_pkl": "assets/qualitative/masks/ball_bounce_2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      10
+    ],
+    "fg_seg_ids": [
+      10
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "ball_bounce_2_v2w_high_deformable_p2.mp4",
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 4,
+    "input_video": "assets/qualitative/deformation/ball_bounce_2.jpg",
+    "prompt": "A deformable elastic soccer ball falls onto the ground naturally due to gravity.",
+    "segmentation_pkl": "assets/qualitative/masks/ball_bounce_2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      10
+    ],
+    "fg_seg_ids": [
+      10
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "ball_bounce_2_v2w_low_deformable_p2.mp4",
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 5,
+    "input_video": "assets/qualitative/deformation/football_juggle_v1.jpg",
+    "prompt": "A deformable elastic soccer ball falls onto the soccer player's thigh naturally due to gravity and stays there while being in a deformed shape.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      2,
+      0
+    ],
+    "fg_seg_ids": [
+      0
+    ],
+    "bg_seg_id": 2,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "football_juggle_v1_v2w_high_deformable_p1.mp4",
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 6,
+    "input_video": "assets/qualitative/deformation/football_juggle_v1.jpg",
+    "prompt": "A deformable elastic soccer ball falls onto the soccer player's thigh naturally due to gravity.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      2,
+      0
+    ],
+    "fg_seg_ids": [
+      0
+    ],
+    "bg_seg_id": 2,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "football_juggle_v1_v2w_low_deformable_p1.mp4",
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 7,
+    "input_video": "assets/qualitative/deformation/football_juggle_v2.jpg",
+    "prompt": "A deformable elastic soccer ball falls onto the synthetic turf field naturally due to gravity.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      5,
+      1
+    ],
+    "fg_seg_ids": [
+      1
+    ],
+    "bg_seg_id": 5,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "football_juggle_v2_v2w_low_deformable_p1.mp4",
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 8,
+    "input_video": "assets/qualitative/deformation/football_juggle_v2.jpg",
+    "prompt": "A deformable elastic soccer ball falls onto the synthetic turf field naturally due to gravity.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      5,
+      1
+    ],
+    "fg_seg_ids": [
+      1
+    ],
+    "bg_seg_id": 5,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "football_juggle_v2_v2w_high_deformable_p1.mp4",
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 9,
+    "input_video": "assets/qualitative/deformation/football_juggle_v3.jpg",
+    "prompt": "A deformable elastic soccer ball falls onto a the leg of a soccer player naturally due to gravity. The deformable soccer ball rests on the leg of the soccer player and does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v3_masks.pkl",
+    "needed_segmentation_ids": [
+      32,
+      35
+    ],
+    "fg_seg_ids": [
+      35
+    ],
+    "bg_seg_id": 32,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "football_juggle_v3_v2w_low_deformable_p1.mp4",
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 10,
+    "input_video": "assets/qualitative/deformation/football_juggle_v3.jpg",
+    "prompt": "A deformable elastic soccer ball falls onto a the leg of a soccer player naturally due to gravity. The deformable soccer ball rests between the soccer player's foot and the shin and he holds it there while being in a deformed shape.",
+    "segmentation_pkl": "assets/qualitative/masks/football_juggle_v3_masks.pkl",
+    "needed_segmentation_ids": [
+      32,
+      35
+    ],
+    "fg_seg_ids": [
+      35
+    ],
+    "bg_seg_id": 32,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "football_juggle_v3_v2w_high_deformable_p1.mp4",
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 11,
+    "input_video": "assets/qualitative/deformation/rubber_duck_1.png",
+    "prompt": "A deformable elastic rubber duck falls onto a wooden surface naturally due to gravity.",
+    "segmentation_pkl": "assets/qualitative/masks/rubber_duck_1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      7
+    ],
+    "output_video": "rubber_duck1_v2w_high_deformable_p2.mp4",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "fg_seg_ids": [
+      7
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 12,
+    "input_video": "assets/test_images/rubber_duck_1.png",
+    "prompt": "A deformable elastic rubber duck falls onto a wooden surface naturally due to gravity.",
+    "segmentation_pkl": "assets/test_images/rubber_duck_1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      7
+    ],
+    "fg_seg_ids": [
+      7
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "rubber_duck1_v2w_low_deformable_p2.mp4",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 13,
+    "input_video": "assets/test_images/tennis_ball_bounce_2.png",
+    "prompt": "A deformable elastic tennis ball falls down naturally due to gravity.",
+    "segmentation_pkl": "assets/test_images/tennis_ball_bounce_2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "tennis_ball_bounce_2_v2w_high_deformable_p2.mp4",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "fg_seg_ids": [
+      2
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 14,
+    "input_video": "assets/test_images/tennis_ball_bounce_2.png",
+    "prompt": "A deformable elastic tennis ball falls down naturally due to gravity.",
+    "segmentation_pkl": "assets/test_images/tennis_ball_bounce_2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "tennis_ball_bounce_2_v2w_low_deformable_p2.mp4",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "fg_seg_ids": [
+      2
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 15,
+    "input_video": "assets/qualitative/deformation/basketball_bounce_v1.jpg",
+    "prompt": "A deformable elastic basketball falls onto a surface due to gravity.",
+    "segmentation_pkl": "assets/qualitative/masks/basketball_bounce_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      8,
+      2
+    ],
+    "fg_seg_ids": [
+      2
+    ],
+    "bg_seg_id": 8,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "basketball_bounce_v1_high_deform_p1.mp4",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 16,
+    "input_video": "assets/qualitative/deformation/trampoline_v1.jpg",
+    "segmentation_pkl": "assets/qualitative/masks/trampoline_v1_masks.pkl",
+    "prompt": "A rigid person drops onto a soft, elastic blue-framed trampoline causing the trampoline to deform and stretch under the impact. The video clearly demonstrates the physics of the trampoline's deformation under the weight of the person, captured from a fixed camera perspective.",
+    "needed_segmentation_ids": [
+      1,
+      0,
+      2
+    ],
+    "fg_seg_ids": [
+      0,
+      2
+    ],
+    "bg_seg_id": 1,
+    "fg_object_types": [
+      "soft",
+      "rigid"
+    ],
+    "props_of_interest": [
+      "deformable"
+    ],
+    "output_video": "trampoline_v1_high_deform_p2.mp4",
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 17,
+    "input_video": "assets/qualitative/deformation/trampoline_v1.jpg",
+    "segmentation_pkl": "assets/qualitative/masks/trampoline_v1_masks.pkl",
+    "prompt": "A rigid person drops onto a soft, elastic blue-framed trampoline causing the trampoline to deform and stretch under the impact. The video clearly demonstrates the physics of the trampoline's deformation under the weight of the person, captured from a fixed camera perspective.",
+    "needed_segmentation_ids": [
+      1,
+      0,
+      2
+    ],
+    "fg_seg_ids": [
+      0,
+      2
+    ],
+    "bg_seg_id": 1,
+    "fg_object_types": [
+      "soft",
+      "rigid"
+    ],
+    "props_of_interest": [
+      "deformable"
+    ],
+    "output_video": "trampoline_v1_low_deform_p2.mp4",
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 18,
+    "input_video": "assets/qualitative/deformation/dumbell_beanbag_1.png",
+    "prompt": "A rigid dumbell drops onto a soft, elastic beanbag, causing the beanbag to deform and stretch under the impact. The video clearly demonstrates the physics of the beanbag's deformation under the weight of the dumbell, captured from a fixed camera perspective.",
+    "segmentation_pkl": "assets/qualitative/masks/dumbell_beanbag_1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2,
+      7
+    ],
+    "fg_seg_ids": [
+      2,
+      7
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft",
+      "rigid"
+    ],
+    "props_of_interest": [
+      "deformable"
+    ],
+    "output_video": "dumbell_beanbag_high_deform_p1.mp4",
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 19,
+    "input_video": "assets/qualitative/deformation/dumbell_beanbag_1.png",
+    "prompt": "A rigid dumbell drops onto a soft, elastic beanbag, causing the beanbag to deform and stretch under the impact. The video clearly demonstrates the physics of the beanbag's deformation under the weight of the dumbell, captured from a fixed camera perspective.",
+    "segmentation_pkl": "assets/qualitative/masks/dumbell_beanbag_1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2,
+      7
+    ],
+    "fg_seg_ids": [
+      2,
+      7
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft",
+      "rigid"
+    ],
+    "props_of_interest": [
+      "deformable"
+    ],
+    "output_video": "dumbell_beanbag_low_deform_p1.mp4",
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 20,
+    "input_video": "assets/qualitative/deformation/girl_yogaball_v1.png",
+    "prompt": "A rigid girl drops onto a soft, elastic exercise ball, causing the ball to deform and stretch under the impact. The video clearly demonstrates the physics of the ball's deformation under the weight of the girl, captured from a fixed camera perspective.",
+    "segmentation_pkl": "assets/qualitative/masks/girl_yogaball_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "fg_seg_ids": [
+      1
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "props_of_interest": [
+      "deformable"
+    ],
+    "output_video": "girl_yogaball_v1_high_deform_p1.mp4",
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 21,
+    "input_video": "assets/qualitative/deformation/girl_yogaball_v1.png",
+    "prompt": "A rigid girl drops onto a soft, elastic exercise ball, causing the ball to deform and stretch under the impact. The video clearly demonstrates the physics of the ball's deformation under the weight of the girl, captured from a fixed camera perspective.",
+    "segmentation_pkl": "assets/qualitative/masks/girl_yogaball_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "fg_seg_ids": [
+      1
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "props_of_interest": [
+      "deformable"
+    ],
+    "output_video": "girl_yogaball_v1_low_deform_p1.mp4",
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 22,
+    "input_video": "assets/qualitative/deformation/girl_yogaball_v2.png",
+    "prompt": "A rigid girl drops onto a soft, elastic exercise ball, causing the ball to deform and stretch under the impact. The video clearly demonstrates the physics of the ball's deformation under the weight of the girl, captured from a fixed camera perspective.",
+    "segmentation_pkl": "assets/qualitative/masks/girl_yogaball_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "fg_seg_ids": [
+      2
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "props_of_interest": [
+      "deformable"
+    ],
+    "output_video": "girl_yogaball_v2_high_deform_p1.mp4",
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 23,
+    "input_video": "assets/qualitative/deformation/girl_yogaball_v2.png",
+    "prompt": "A rigid girl drops onto a soft, elastic exercise ball, causing the ball to deform and stretch under the impact. The video clearly demonstrates the physics of the ball's deformation under the weight of the girl, captured from a fixed camera perspective.",
+    "segmentation_pkl": "assets/qualitative/masks/girl_yogaball_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "fg_seg_ids": [
+      2
+    ],
+    "bg_seg_id": 0,
+    "fg_object_types": [
+      "soft"
+    ],
+    "props_of_interest": [
+      "deformable"
+    ],
+    "output_video": "girl_yogaball_v2_low_deform_p1.mp4",
+    "neo_hookean_mu": "high",
+    "neo_hookean_damping": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 24,
+    "input_video": "assets/qualitative/deformation/basketball_bounce_v1.jpg",
+    "prompt": "A deformable elastic basketball falls onto a surface due to gravity. The person is stationary in the video and the only thing that is moving is the basketball.",
+    "segmentation_pkl": "assets/qualitative/masks/basketball_bounce_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      8,
+      2
+    ],
+    "fg_seg_ids": [
+      2
+    ],
+    "bg_seg_id": 8,
+    "fg_object_types": [
+      "soft"
+    ],
+    "output_video": "basketball_bounce_v1_high_deform_p2.mp4",
+    "props_of_interest": [
+      "deformable"
+    ],
+    "neo_hookean_mu": "low",
+    "neo_hookean_damping": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  }
+]

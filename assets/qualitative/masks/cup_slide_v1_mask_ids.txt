@@ -1,0 +1,21 @@
+# Mask ID Information
+# Total masks: 13
+# Generated from: cup_slide_v1.jpg
+
+# Selected as foreground:
+foreground_mask_ids: 2
+
+# All mask IDs and their areas:
+mask_0: area=4056740, iou=0.996, stability=0.984
+mask_1: area=284806, iou=0.988, stability=0.984
+mask_2: area=382823, iou=0.988, stability=0.979
+mask_3: area=35367, iou=0.984, stability=0.984
+mask_4: area=37310, iou=0.984, stability=0.987
+mask_5: area=1725, iou=0.938, stability=0.971
+mask_6: area=41903, iou=0.906, stability=0.963
+mask_7: area=38511, iou=0.902, stability=0.965
+mask_8: area=2388, iou=0.902, stability=0.961
+mask_9: area=42210, iou=0.902, stability=0.965
+mask_10: area=1197, iou=0.895, stability=0.977
+mask_11: area=30764, iou=0.887, stability=0.955
+mask_12: area=32407, iou=0.816, stability=0.954

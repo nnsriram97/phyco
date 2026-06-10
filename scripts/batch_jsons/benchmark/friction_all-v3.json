@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "input_video": "assets/qualitative/friction/banana_slide_v1.jpg",
+    "prompt": "A video of a ripe yellow banana lying on a table. At the start it rests on one side of the table. A strong invisible push immediately sends it sliding towards the right, and it keeps moving for the entire clip \u2014 continuously gliding towards the right across the table like a small box shoved hard across a rough carpet. Because the surface has high friction, it slides only a short but clearly visible distance \u2014 it noticeably moves away from its starting spot \u2014 before friction fairly quickly stops it. Throughout the video the banana is always in motion, never frozen, visibly travelling across the frame and ending up away from where it began. Everything else \u2014 the table and every other object in the scene \u2014 stays perfectly still, and the camera does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/banana_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "banana_slide-v1_v2w_high_friction.mp4",
+    "friction": "high",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 2,
+    "input_video": "assets/qualitative/friction/banana_slide_v1.jpg",
+    "prompt": "A video of a ripe yellow banana lying on a table. At the start it rests on one side of the table. A strong invisible push immediately sends it sliding towards the right, and it keeps moving for the entire clip \u2014 continuously gliding towards the right across the table like a hockey puck gliding across fresh, slippery ice. Because the surface is extremely slick with almost no friction, it slides a long way and keeps going, travelling most of the way across the frame before only very slowly easing to a stop. Throughout the video the banana is always in motion, never frozen, visibly travelling across the frame and ending up away from where it began. Everything else \u2014 the table and every other object in the scene \u2014 stays perfectly still, and the camera does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/banana_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "banana_slide-v1_v2w_low_friction.mp4",
+    "friction": "low",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 3,
+    "input_video": "assets/qualitative/friction/couch_slide_v1.jpg",
+    "prompt": "A video of a green inflatable bean bag chair skidding across a wooden office floor. It starts at the left, resting on the wood floor with open floor to its right. Off-screen, someone gives it a hard shove to the right, and the lightweight air-filled chair immediately skids and slides rightward across the slick wooden floor, scooting across the open floor and staying in motion the whole time. Because the wood floor grips a bit, the bean bag chair skids only a short but clearly obvious distance to the right \u2014 it plainly leaves its starting spot \u2014 before friction fairly quickly stops it. By the end of the clip the chair has clearly travelled to the right, leaving the spot where it started empty. Only the bean bag chair moves; the Canon printer, blue recycling bin, gray carpet and walls stay completely fixed, and the camera is locked off and does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/couch_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      6
+    ],
+    "output_video": "couch_slide-v1_v2w_high_friction.mp4",
+    "friction": "high",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 4,
+    "input_video": "assets/qualitative/friction/couch_slide_v1.jpg",
+    "prompt": "A video of a green inflatable bean bag chair skidding across a wooden office floor. It starts at the left, resting on the wood floor with open floor to its right. Off-screen, someone gives it a hard shove to the right, and the lightweight air-filled chair immediately skids and slides rightward across the slick wooden floor, scooting across the open floor and staying in motion the whole time. Because the wood floor has a little grip, the bean bag chair skids a clear, moderate distance to the right before gradually stopping. By the end of the clip the chair has clearly travelled to the right, leaving the spot where it started empty. Only the bean bag chair moves; the Canon printer, blue recycling bin, gray carpet and walls stay completely fixed, and the camera is locked off and does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/couch_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      6
+    ],
+    "output_video": "couch_slide-v1_v2w_medium_friction.mp4",
+    "friction": "medium",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 5,
+    "input_video": "assets/qualitative/friction/couch_slide_v1.jpg",
+    "prompt": "A video of a green inflatable bean bag chair skidding across a wooden office floor. It starts at the left, resting on the wood floor with open floor to its right. Off-screen, someone gives it a hard shove to the right, and the lightweight air-filled chair immediately skids and slides rightward across the slick wooden floor, scooting across the open floor and staying in motion the whole time. Because the wood floor is extremely slick, like a sheet of ice, the bean bag chair keeps gliding a long way to the right, sliding nearly all the way across before only slowly easing to a stop. By the end of the clip the chair has clearly travelled to the right, leaving the spot where it started empty. Only the bean bag chair moves; the Canon printer, blue recycling bin, gray carpet and walls stay completely fixed, and the camera is locked off and does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/couch_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      6
+    ],
+    "output_video": "couch_slide-v1_v2w_low_friction.mp4",
+    "friction": "low",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 6,
+    "input_video": "assets/qualitative/friction/couch_slide_v2.jpg",
+    "prompt": "A video of a green inflatable bean bag chair, with a person curled up inside it, skidding across a wooden office floor. Off-screen, someone gives it a hard shove to the right; the chair and the person inside it immediately skid and slide rightward together across the slick wooden floor, scooting across the open floor and staying in motion the whole time. Because the wood floor grips a bit, the chair and person skids only a short but clearly obvious distance to the right \u2014 it plainly leaves its starting spot \u2014 before friction fairly quickly stops it. By the end of the clip the chair has clearly travelled to the right, away from where it started. Only the bean bag chair with the person inside moves; the printer, recycling bin, gray carpet, office furniture and potted plant stay completely fixed, and the camera is locked off and does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/couch_slide_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      23
+    ],
+    "output_video": "couch_slide-v2_v2w_high_friction.mp4",
+    "props_of_interest": [
+      "friction"
+    ],
+    "friction": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 7,
+    "input_video": "assets/qualitative/friction/couch_slide_v2.jpg",
+    "prompt": "A video of a green inflatable bean bag chair, with a person curled up inside it, skidding across a wooden office floor. Off-screen, someone gives it a hard shove to the right; the chair and the person inside it immediately skid and slide rightward together across the slick wooden floor, scooting across the open floor and staying in motion the whole time. Because the wood floor is extremely slick, like a sheet of ice, the chair and person keeps gliding a long way to the right, sliding nearly all the way across before only slowly easing to a stop. By the end of the clip the chair has clearly travelled to the right, away from where it started. Only the bean bag chair with the person inside moves; the printer, recycling bin, gray carpet, office furniture and potted plant stay completely fixed, and the camera is locked off and does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/couch_slide_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      23
+    ],
+    "output_video": "couch_slide-v2_v2w_low_friction.mp4",
+    "props_of_interest": [
+      "friction"
+    ],
+    "friction": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 8,
+    "input_video": "assets/qualitative/friction/cup_slide_v1.jpg",
+    "prompt": "A light white paper cup containing a light-colored beverage, sitting on a clean white table in an office. It is given a firm initial push towards the right and immediately starts sliding towards the right across the white table surface, clearly and visibly moving in a straight line. The paper cup stays in continuous motion, visibly sliding away from its starting position. Because the white table surface has relatively high friction, the paper cup still slides but only a short distance \u2014 it moves a little bit and then friction fairly quickly brings it to a stop. The paper cup is light and slides easily. The only thing moving in the video is the paper cup; the table and all surrounding office objects all remain completely stationary. The camera is fixed and stationary, capturing the realistic physics of the paper cup sliding across the white table surface.",
+    "segmentation_pkl": "assets/qualitative/masks/cup_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "cup_slide-v1_v2w_high_friction.mp4",
+    "props_of_interest": [
+      "friction"
+    ],
+    "friction": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 9,
+    "input_video": "assets/qualitative/friction/cup_slide_v1.jpg",
+    "prompt": "A light white paper cup containing a light-colored beverage, sitting on a clean white table in an office. It is given a firm initial push towards the right and immediately starts sliding towards the right across the white table surface, clearly and visibly moving in a straight line. The paper cup stays in continuous motion, visibly sliding away from its starting position. Because the white table surface is extremely smooth and slippery with very low friction, the paper cup slides a long distance, gliding far across the surface and travelling well away from where it started before very gradually coming to rest. The paper cup is light and slides easily. The only thing moving in the video is the paper cup; the table and all surrounding office objects all remain completely stationary. The camera is fixed and stationary, capturing the realistic physics of the paper cup sliding across the white table surface.",
+    "segmentation_pkl": "assets/qualitative/masks/cup_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "cup_slide-v1_v2w_low_friction.mp4",
+    "props_of_interest": [
+      "friction"
+    ],
+    "friction": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 10,
+    "input_video": "assets/qualitative/friction/plant_slide_v2.jpg",
+    "prompt": "A video of a small potted plant in a light white ceramic pot skidding across a smooth white tabletop. It starts at the left edge of the round table, with open empty tabletop to its right. A hard shove sends the light pot skidding to the right, sliding across the slick open tabletop toward the empty right side and staying in motion the whole time. Because the tabletop grips a bit, the pot skids only a short but clearly obvious distance to the right \u2014 it plainly leaves its starting spot \u2014 before friction fairly quickly stops it. By the end of the clip the pot has clearly slid well to the right of where it began. Only the potted plant moves; the white round table, green chairs, laptops, windows and background office stay completely fixed, and the camera is locked off and does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/plant_slide_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      4
+    ],
+    "output_video": "plant_slide-v2_v2w_high_friction.mp4",
+    "friction": "high",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 11,
+    "input_video": "assets/qualitative/friction/plant_slide_v2.jpg",
+    "prompt": "A video of a small potted plant in a light white ceramic pot skidding across a smooth white tabletop. It starts at the left edge of the round table, with open empty tabletop to its right. A hard shove sends the light pot skidding to the right, sliding across the slick open tabletop toward the empty right side and staying in motion the whole time. Because the tabletop is extremely slick, like a sheet of ice, the pot keeps gliding a long way to the right, sliding nearly all the way across before only slowly easing to a stop. By the end of the clip the pot has clearly slid well to the right of where it began. Only the potted plant moves; the white round table, green chairs, laptops, windows and background office stay completely fixed, and the camera is locked off and does not move.",
+    "segmentation_pkl": "assets/qualitative/masks/plant_slide_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      4
+    ],
+    "output_video": "plant_slide-v2_v2w_low_friction.mp4",
+    "friction": "low",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 12,
+    "input_video": "assets/qualitative/friction/_materialexpcube1.png",
+    "prompt": "A small, light metallic cube placed on a polished wooden floor made of long horizontal planks. It is given a firm initial push towards the right and immediately starts sliding towards the right across the polished wooden floor, clearly and visibly moving in a straight line. The metal cube stays in continuous motion, visibly sliding away from its starting position. Because the polished wooden floor is extremely smooth and slippery with very low friction, the metal cube slides a long distance, gliding far across the surface and travelling well away from where it started before very gradually coming to rest. The metal cube is light and slides easily. The only thing moving in the video is the metal cube; the floor and the rest of the scene all remain completely stationary. The camera is fixed and stationary, capturing the realistic physics of the metal cube sliding across the polished wooden floor.",
+    "segmentation_pkl": "assets/qualitative/masks/_materialexpcube1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "_materialexpcube1_v2w_low_friction.mp4",
+    "friction": "low",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 13,
+    "input_video": "assets/qualitative/friction/_materialexpcube1.png",
+    "prompt": "A small, light metallic cube placed on a polished wooden floor made of long horizontal planks. It is given a firm initial push towards the right and immediately starts sliding towards the right across the polished wooden floor, clearly and visibly moving in a straight line. The metal cube stays in continuous motion, visibly sliding away from its starting position. Because the polished wooden floor has relatively high friction, the metal cube still slides but only a short distance \u2014 it moves a little bit and then friction fairly quickly brings it to a stop. The metal cube is light and slides easily. The only thing moving in the video is the metal cube; the floor and the rest of the scene all remain completely stationary. The camera is fixed and stationary, capturing the realistic physics of the metal cube sliding across the polished wooden floor.",
+    "segmentation_pkl": "assets/qualitative/masks/_materialexpcube1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "_materialexpcube1_v2w_high_friction.mp4",
+    "friction": "high",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 14,
+    "input_video": "assets/qualitative/friction/sandpaper_cube_slide.jpg",
+    "prompt": "A light red wooden cube placed at the top of a slanted ramp made of cardboard covered with sandpaper. Under the pull of gravity the cube immediately begins sliding down the inclined ramp, clearly and visibly moving in a straight line along the slope and staying in continuous motion. Because the ramp surface is smooth and slippery with very low friction, the cube slides rapidly and travels a long way down the ramp, accelerating smoothly and covering most of the slope. The cube is the only object moving in the video; the ramp and everything else in the scene remain completely stationary. The camera is fixed, capturing the realistic physics of the cube sliding down the ramp.",
+    "segmentation_pkl": "assets/qualitative/masks/sandpaper_cube_slide_masks.pkl",
+    "needed_segmentation_ids": [
+      2,
+      6
+    ],
+    "output_video": "sandpaper_cube_slide_v2w_low_friction.mp4",
+    "props_of_interest": [
+      "friction"
+    ],
+    "friction": "low",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 15,
+    "input_video": "assets/qualitative/friction/sandpaper_cube_slide.jpg",
+    "prompt": "A light red wooden cube placed at the top of a slanted ramp made of cardboard covered with sandpaper. Under the pull of gravity the cube immediately begins sliding down the inclined ramp, clearly and visibly moving in a straight line along the slope and staying in continuous motion. Because the sandpaper surface is rough and has relatively high friction, the cube still slides but only a little \u2014 it moves slowly a short distance down the ramp before friction nearly halts it. The cube is the only object moving in the video; the ramp and everything else in the scene remain completely stationary. The camera is fixed, capturing the realistic physics of the cube sliding down the ramp.",
+    "segmentation_pkl": "assets/qualitative/masks/sandpaper_cube_slide_masks.pkl",
+    "needed_segmentation_ids": [
+      2,
+      6
+    ],
+    "output_video": "sandpaper_cube_slide_v2w_high_friction.mp4",
+    "props_of_interest": [
+      "friction"
+    ],
+    "friction": "high",
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 16,
+    "input_video": "assets/qualitative/friction/_materialexplaundrybasket1.png",
+    "prompt": "A light white plastic laundry basket loosely filled with a few light, fluffy clothes, placed on a smooth wooden floor in a cozy living room. It is given a firm initial push towards the left and immediately starts sliding towards the left across the wooden floor, clearly and visibly moving in a straight line. The laundry basket stays in continuous motion, visibly sliding away from its starting position. Because the wooden floor has relatively high friction, the laundry basket still slides but only a short distance \u2014 it moves a little bit and then friction fairly quickly brings it to a stop. The laundry basket is light and slides easily. The only thing moving in the video is the laundry basket; the gray couch, beige pillow, light rug, wooden shelves, and tall curtains all remain completely stationary. The camera is fixed and stationary, capturing the realistic physics of the laundry basket sliding across the wooden floor.",
+    "segmentation_pkl": "assets/qualitative/masks/_materialexplaundrybasket1_masks.pkl",
+    "needed_segmentation_ids": [
+      5,
+      10
+    ],
+    "output_video": "laundrybasket1_v2w_high_friction.mp4",
+    "friction": "high",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 17,
+    "input_video": "assets/qualitative/friction/_materialexplaundrybasket1.png",
+    "prompt": "A light white plastic laundry basket loosely filled with a few light, fluffy clothes, placed on a smooth wooden floor in a cozy living room. It is given a firm initial push towards the left and immediately starts sliding towards the left across the wooden floor, clearly and visibly moving in a straight line. The laundry basket stays in continuous motion, visibly sliding away from its starting position. Because the wooden floor is extremely smooth and slippery with very low friction, the laundry basket slides a long distance, gliding far across the surface and travelling well away from where it started before very gradually coming to rest. The laundry basket is light and slides easily. The only thing moving in the video is the laundry basket; the gray couch, beige pillow, light rug, wooden shelves, and tall curtains all remain completely stationary. The camera is fixed and stationary, capturing the realistic physics of the laundry basket sliding across the wooden floor.",
+    "segmentation_pkl": "assets/qualitative/masks/_materialexplaundrybasket1_masks.pkl",
+    "needed_segmentation_ids": [
+      5,
+      10
+    ],
+    "output_video": "laundrybasket1_v2w_low_friction.mp4",
+    "friction": "low",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 18,
+    "input_video": "assets/qualitative/friction/slide_v1.jpg",
+    "prompt": "A child wearing a black baseball cap, dark long-sleeve shirt, and blue jeans sits on an orange playground slide and begins sliding down due to gravity. The child moves smoothly down the curved slide surface in a natural motion, with realistic physics showing the effects of gravity pulling downward and low friction between the child's clothing and the plastic slide surface, causing the child to slide down more quickly and smoothly with minimal resistance. The only thing that is moving in the video is the child sliding down. All other objects including the colorful playground equipment with green and orange rails remain completely stationary. The video accurately captures the physics of a person sliding down a playground slide with low friction from a camera that is stationary.",
+    "segmentation_pkl": "assets/qualitative/masks/slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      4,
+      69
+    ],
+    "output_video": "slide_v1_low_friction_p1.mp4",
+    "friction": "low",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 19,
+    "input_video": "assets/qualitative/friction/slide_v1.jpg",
+    "prompt": "A child wearing a black baseball cap, dark long-sleeve shirt, and blue jeans sits on an orange playground slide and begins sliding down due to gravity. The child moves down the curved slide surface in a natural motion, with realistic physics showing the effects of gravity pulling downward and high friction between the child's clothing and the plastic slide surface, causing the child to slide down more slowly and cautiously with significant resistance that controls and slows the descent. The only thing that is moving in the video is the child sliding down. All other objects including the colorful playground equipment with green and orange rails remain completely stationary. The video accurately captures the physics of a person sliding down a playground slide with high friction from a camera that is stationary.",
+    "segmentation_pkl": "assets/qualitative/masks/slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      4,
+      69
+    ],
+    "output_video": "slide_v1_high_friction_p1.mp4",
+    "friction": "high",
+    "props_of_interest": [
+      "friction"
+    ],
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  }
+]

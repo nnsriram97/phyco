@@ -1,0 +1,45 @@
+# Mask ID Information
+# Total masks: 37
+# Generated from: curling_v2.jpg
+
+# Selected as foreground:
+foreground_mask_ids: 36
+
+# All mask IDs and their areas:
+mask_0: area=3701023, iou=0.996, stability=0.979
+mask_1: area=135778, iou=0.984, stability=0.988
+mask_2: area=136030, iou=0.984, stability=0.986
+mask_3: area=65531, iou=0.977, stability=0.972
+mask_4: area=231182, iou=0.973, stability=0.978
+mask_5: area=13039, iou=0.969, stability=0.971
+mask_6: area=6281, iou=0.961, stability=0.973
+mask_7: area=34730, iou=0.957, stability=0.964
+mask_8: area=4712, iou=0.957, stability=0.968
+mask_9: area=6114, iou=0.957, stability=0.970
+mask_10: area=163951, iou=0.953, stability=0.955
+mask_11: area=6225, iou=0.949, stability=0.974
+mask_12: area=6160, iou=0.949, stability=0.975
+mask_13: area=17746, iou=0.945, stability=0.960
+mask_14: area=13615, iou=0.945, stability=0.966
+mask_15: area=19300, iou=0.945, stability=0.961
+mask_16: area=41578, iou=0.945, stability=0.955
+mask_17: area=33855, iou=0.941, stability=0.957
+mask_18: area=3942, iou=0.941, stability=0.964
+mask_19: area=6122, iou=0.941, stability=0.966
+mask_20: area=19951, iou=0.938, stability=0.952
+mask_21: area=5817, iou=0.938, stability=0.973
+mask_22: area=7025, iou=0.934, stability=0.954
+mask_23: area=11899, iou=0.930, stability=0.962
+mask_24: area=5899, iou=0.930, stability=0.956
+mask_25: area=9516, iou=0.926, stability=0.966
+mask_26: area=5960, iou=0.926, stability=0.958
+mask_27: area=10060, iou=0.914, stability=0.953
+mask_28: area=16876, iou=0.906, stability=0.972
+mask_29: area=5059, iou=0.898, stability=0.966
+mask_30: area=62730, iou=0.895, stability=0.958
+mask_31: area=5513, iou=0.875, stability=0.954
+mask_32: area=17726, iou=0.863, stability=0.964
+mask_33: area=15999, iou=0.859, stability=0.951
+mask_34: area=31225, iou=0.852, stability=0.972
+mask_35: area=63165, iou=0.844, stability=0.954
+mask_36: area=345933, iou=0.934, stability=0.973

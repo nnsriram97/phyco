@@ -1,0 +1,19 @@
+# Mask ID Information
+# Total masks: 11
+# Generated from: _toycar4.png
+
+# Selected as foreground:
+foreground_mask_ids: 1
+
+# All mask IDs and their areas:
+mask_0: area=108247, iou=0.984, stability=0.967
+mask_1: area=15426, iou=0.973, stability=0.969
+mask_2: area=194125, iou=0.953, stability=0.961
+mask_3: area=690, iou=0.941, stability=0.967
+mask_4: area=282, iou=0.918, stability=0.979
+mask_5: area=541, iou=0.910, stability=0.960
+mask_6: area=292, iou=0.902, stability=0.963
+mask_7: area=295, iou=0.898, stability=0.957
+mask_8: area=325, iou=0.891, stability=0.961
+mask_9: area=295, iou=0.855, stability=0.983
+mask_10: area=156, iou=0.816, stability=0.975

@@ -1,0 +1,582 @@
+[
+  {
+    "id": 1,
+    "input_video": "assets/qualitative/force/banana_slide_v1.jpg",
+    "prompt": "A banana resting on a flat surface is pushed by an applied force in the top right direction, causing it to slide in the direction of the push. The banana is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the banana sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/banana_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "banana_slide-v1_v2w_force_095_angle_315.mp4",
+    "force_magnitude": 0.95,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 315,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 2,
+    "input_video": "assets/qualitative/force/banana_slide_v1.jpg",
+    "prompt": "A banana resting on a flat surface is pushed by an applied force in the upward direction, causing it to slide in the direction of the push. The banana is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the banana sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/banana_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "banana_slide-v1_v2w_force_095_angle_271.mp4",
+    "force_magnitude": 0.95,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 271,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 3,
+    "input_video": "assets/qualitative/force/banana_slide_v1.jpg",
+    "prompt": "A banana resting on a flat surface is pushed by an applied force in the top right direction, causing it to slide in the direction of the push. The banana is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the banana sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/banana_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "banana_slide-v1_v2w_force_051_angle_315.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 315,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 4,
+    "input_video": "assets/qualitative/force/banana_slide_v1.jpg",
+    "prompt": "A banana resting on a flat surface is pushed by an applied force in the upward direction, causing it to slide in the direction of the push. The banana is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the banana sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/banana_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "banana_slide-v1_v2w_force_051_angle_271.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 271,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 5,
+    "input_video": "assets/qualitative/force/curling_v1.jpg",
+    "prompt": "A curling stone is pushed by an applied force in the left direction, causing it to slide towards left side of the frame in a straight and elegant fashion. The curling stone is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the curling stone sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/curling_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      34
+    ],
+    "output_video": "curling_v1_v2w_force_051_angle_181.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 181,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 6,
+    "input_video": "assets/qualitative/force/curling_v1.jpg",
+    "prompt": "A curling stone is pushed by an applied force in the top left direction, causing it to slide towards top left side of the frame in a straight and elegant fashion. The curling stone is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the curling stone sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/curling_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      34
+    ],
+    "output_video": "curling_v1_v2w_force_051_angle_225.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 225,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 7,
+    "input_video": "assets/qualitative/force/curling_v1.jpg",
+    "prompt": "A curling stone is pushed by an applied force in the upward direction, causing it to slide in a straight direction into the frame in a straight and elegant fashion. The curling stone is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the curling stone sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/curling_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      34
+    ],
+    "output_video": "curling_v1_v2w_force_051_angle_269.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 269,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 8,
+    "input_video": "assets/qualitative/force/curling_v2.jpg",
+    "prompt": "A curling stone is pushed by an applied force in the right direction, causing it to slide smoothly towards right side of the frame in a straight and elegant fashion. The curling stone is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the curling stone sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/curling_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      36
+    ],
+    "output_video": "curling_v2_v2w_force_051_angle_1.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 1,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 9,
+    "input_video": "assets/qualitative/force/curling_v2.jpg",
+    "prompt": "A curling stone is pushed by an applied force in the top right direction, causing it to slide smoothly towards top right side of the frame away from the camera in a straight and elegant fashion. The curling stone is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the curling stone sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/curling_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      36
+    ],
+    "output_video": "curling_v2_v2w_force_051_angle_315.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 315,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 10,
+    "input_video": "assets/qualitative/force/curling_v2.jpg",
+    "prompt": "A curling stone is pushed by an applied force in the upward direction, causing it to slide into the frame away from the camera in a straight and elegant fashion. The curling stone is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the curling stone sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/curling_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      36
+    ],
+    "output_video": "curling_v2_v2w_force_051_angle_271.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 271,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 11,
+    "input_video": "assets/qualitative/force/couch_slide_v1.jpg",
+    "prompt": "A empty inflated bean bag is pushed by an applied force in the right direction, causing it to slide towards right side of the frame in a straight and elegant fashion. The inflated bean bag is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the inflated bag sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/couch_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      6
+    ],
+    "output_video": "couch_slide_v1_v2w_force_051_angle_1.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 1,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 12,
+    "input_video": "assets/qualitative/force/cart_roll_v1.png",
+    "prompt": "A small wooden toy cart with a blue \u201cVEPROJECT 1\u201d sign is pushed by an applied force in the right direction, causing it to roll smoothly towards the right side of the frame on a flat tabletop surface. The toy cart is the only thing that is in motion, while everything else remains stationary. The video clearly demonstrates the physics of the toy cart rolling under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/cart_roll_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      4
+    ],
+    "output_video": "cart_roll_v1_v2w_force_090_angle_1.mp4",
+    "force_magnitude": 0.9,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 1,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 13,
+    "input_video": "assets/qualitative/force/sprite_v1.png",
+    "prompt": "A sprite can sitting on a mossy tree stump is pushed by an applied force in the right direction, causing it to roll in the direction of the push. The sprite can is the only thing that is in motion, while everything else remains stationary. The video clearly demonstrates the physics of the sprite can rolling under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/sprite_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "sprite_v1_v2w_force_051_angle_1.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 1,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 14,
+    "input_video": "assets/qualitative/force/sprite_v1.png",
+    "prompt": "A sprite can sitting on a mossy tree stump is pushed by an applied force in the left direction, causing it to roll in the direction of the push. The sprite can is the only thing that is in motion, while everything else remains stationary. The video clearly demonstrates the physics of the sprite can rolling under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/sprite_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "sprite_v1_v2w_force_051_angle_181.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 181,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 15,
+    "input_video": "assets/qualitative/force/bell_v1.png",
+    "prompt": "A shiny metal bell resting on a wooden table is pushed by an applied force in the upward direction, causing it to slide in the direction of the push. The metal bell is the only thing that is in motion, while everything else remains stationary. The video clearly demonstrates the physics of the bell sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/bell_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "bell_v1_v2w_force_051_angle_271.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 271,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 16,
+    "input_video": "assets/qualitative/force/bell_v1.png",
+    "prompt": "A shiny metal bell resting on a wooden table is pushed by an applied force in the right direction, causing it to slide in the direction of the push. The metal bell is the only thing that is in motion, while everything else remains stationary. The video clearly demonstrates the physics of the bell sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/bell_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "bell_v1_v2w_force_051_angle_1.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 1,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 17,
+    "input_video": "assets/qualitative/force/bell_v1.png",
+    "prompt": "A shiny metal bell resting on a wooden table is pushed by an applied force in the left direction, causing it to slide in the direction of the push. The metal bell is the only thing that is in motion, while everything else remains stationary. The video clearly demonstrates the physics of the bell sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/bell_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "bell_v1_v2w_force_051_angle_181.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 181,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 18,
+    "input_video": "assets/qualitative/force/_materialexpcube1.png",
+    "prompt": "A metal cube resting on a wooden table is pushed by an applied force in the right direction, causing it to slide towards right side of the frame in a straight and elegant fashion. The metal cube is the only thing that is in motion, while everything else remains stationary. The video clearly demonstrates the physics of the cube sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/_materialexpcube1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "_materialexpcube1_v2w_force_051_angle_1.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 1,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 19,
+    "input_video": "assets/qualitative/force/_materialexpcube1.png",
+    "prompt": "A metal cube resting on a wooden table is pushed by an applied force in the upward direction, causing it to slide in the direction of the push. The metal cube is the only thing that is in motion, while everything else remains stationary. The video clearly demonstrates the physics of the cube sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/_materialexpcube1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "_materialexpcube1_v2w_force_051_angle_271.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 271,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 20,
+    "input_video": "assets/qualitative/force/_materialexpcube1.png",
+    "prompt": "A metal cube resting on a wooden table is pushed by an applied force in the top right direction, causing it to slide in the direction of the push. The metal cube is the only thing that is in motion, while everything else remains stationary. The video clearly demonstrates the physics of the cube sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/_materialexpcube1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "_materialexpcube1_v2w_force_051_angle_315.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 315,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 21,
+    "input_video": "assets/qualitative/force/_materialexplaundrybasket1.png",
+    "prompt": "A white plastic laundry basket filled with colorful clothes placed on a smooth wooden floor in a cozy living room is pushed by an applied force in the left direction, causing it to slide smoothly towards left side of the frame in a smooth and elegant fashion. The laundry basket is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the basket sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/_materialexplaundrybasket1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      10
+    ],
+    "output_video": "_materialexplaundrybasket1_v2w_force_051_angle_179.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 179,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 22,
+    "input_video": "assets/qualitative/force/_materialexplaundrybasket1.png",
+    "prompt": "A white plastic laundry basket filled with colorful clothes placed on a smooth wooden floor in a cozy living room is pushed by an applied force in the upward direction, causing it to slide in the direction of the push. The laundry basket is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the basket sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/_materialexplaundrybasket1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      10
+    ],
+    "output_video": "_materialexplaundrybasket1_v2w_force_051_angle_260.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 260,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 23,
+    "input_video": "assets/qualitative/force/_toycar4.png",
+    "prompt": "A small yellow toy van is pushed by an applied force in the left direction, causing it to roll smoothly towards left side of the frame in a straight and elegant fashion. The toy van is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the toy van rolling under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/_toycar4_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "_toycar4_v2w_force_030_angle_181.mp4",
+    "force_magnitude": 0.3,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 181,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 24,
+    "input_video": "assets/qualitative/force/_toycar4.png",
+    "prompt": "A small yellow toy van is pushed by an applied force in the right direction, causing it to roll smoothly towards right side of the frame in a straight and elegant fashion. The toy van is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the toy van rolling under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/_toycar4_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      1
+    ],
+    "output_video": "_toycar4_v2w_force_051_angle_1.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 1,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 25,
+    "input_video": "assets/qualitative/force/_toycar1.png",
+    "prompt": "A small pastel blue toy car is pushed by an applied force in the top left direction, causing it to roll smoothly towards top left side of the frame in a straight and elegant fashion. The toy car is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the toy car rolling under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/_toycar1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "_toycar1_v2w_force_020_angle_225.mp4",
+    "force_magnitude": 0.2,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 225,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 26,
+    "input_video": "assets/qualitative/force/plant_slide_v2.jpg",
+    "prompt": "A potted plant resting on a table is pushed by an applied force in the right direction, causing it to slide smoothly towards right side of the frame in a straight and elegant fashion. The plant is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the plant sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/plant_slide_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      4
+    ],
+    "output_video": "plant_slide-v2_v2w_force_051_angle_1.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 1,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 27,
+    "input_video": "assets/qualitative/force/plant_slide_v2.jpg",
+    "prompt": "A potted plant resting on a table is pushed by an applied force in the upward direction, causing it to slide smoothly away from the camera towards the end of the table in a straight and elegant fashion. The plant is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the plant sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/plant_slide_v2_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      4
+    ],
+    "output_video": "plant_slide-v2_v2w_force_025_angle_271.mp4",
+    "force_magnitude": 0.25,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 271,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 28,
+    "input_video": "assets/qualitative/force/cup_slide_v1.jpg",
+    "prompt": "A white empty cup resting on a table is pushed by an applied force in the right direction, causing it to slide smoothly towards right side of the frame in a straight and elegant fashion. The cup is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the cup sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/cup_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "cup_slide-v1_v2w_force_051_angle_1.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 1,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  },
+  {
+    "id": 29,
+    "input_video": "assets/qualitative/force/cup_slide_v1.jpg",
+    "prompt": "A white empty cup resting on a table is pushed by an applied force in the upward direction, causing it to slide smoothly away from the camera towards top of the frame in a straight and elegant fashion. The cup is the only object in motion, while everything else remains stationary. The video clearly demonstrates the physics of the cup sliding under the applied force, as observed from a fixed camera viewpoint.",
+    "segmentation_pkl": "assets/qualitative/masks/cup_slide_v1_masks.pkl",
+    "needed_segmentation_ids": [
+      0,
+      2
+    ],
+    "output_video": "cup_slide-v1_v2w_force_051_angle_271.mp4",
+    "force_magnitude": 0.51,
+    "force_magnitude_max": 1.0,
+    "force_magnitude_min": 0.0,
+    "props_of_interest": [
+      "force"
+    ],
+    "dir_angle": 271,
+    "use_text_encoder": true,
+    "is_kubric_generated": false
+  }
+]

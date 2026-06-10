@@ -1,0 +1,25 @@
+# Mask ID Information
+# Total masks: 17
+# Generated from: bell_v1.png
+
+# Selected as foreground:
+foreground_mask_ids: 2
+
+# All mask IDs and their areas:
+mask_0: area=966483, iou=0.984, stability=0.957
+mask_1: area=361478, iou=0.977, stability=0.984
+mask_2: area=156078, iou=0.977, stability=0.976
+mask_3: area=15973, iou=0.965, stability=0.970
+mask_4: area=360241, iou=0.961, stability=0.977
+mask_5: area=15491, iou=0.953, stability=0.953
+mask_6: area=112517, iou=0.941, stability=0.960
+mask_7: area=12278, iou=0.941, stability=0.957
+mask_8: area=3713, iou=0.941, stability=0.967
+mask_9: area=7958, iou=0.938, stability=0.970
+mask_10: area=1869, iou=0.938, stability=0.972
+mask_11: area=2767, iou=0.926, stability=0.961
+mask_12: area=65081, iou=0.926, stability=0.956
+mask_13: area=3977, iou=0.926, stability=0.966
+mask_14: area=1165, iou=0.914, stability=0.962
+mask_15: area=605962, iou=0.879, stability=0.957
+mask_16: area=148061, iou=0.879, stability=0.964

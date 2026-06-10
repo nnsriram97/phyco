@@ -1,0 +1,33 @@
+# Mask ID Information
+# Total masks: 25
+# Generated from: trampoline_v1.jpg
+
+# Selected as foreground:
+foreground_mask_ids: 0 2
+
+# All mask IDs and their areas:
+mask_0: area=589466, iou=0.996, stability=0.985
+mask_1: area=38347, iou=0.992, stability=0.983
+mask_2: area=86957, iou=0.988, stability=0.978
+mask_3: area=27380, iou=0.980, stability=0.974
+mask_4: area=86740, iou=0.977, stability=0.975
+mask_5: area=15549, iou=0.969, stability=0.968
+mask_6: area=1355, iou=0.969, stability=0.982
+mask_7: area=6104, iou=0.969, stability=0.976
+mask_8: area=16082, iou=0.961, stability=0.960
+mask_9: area=4290, iou=0.961, stability=0.977
+mask_10: area=28414, iou=0.961, stability=0.959
+mask_11: area=1328, iou=0.957, stability=0.978
+mask_12: area=28782, iou=0.953, stability=0.956
+mask_13: area=110477, iou=0.949, stability=0.961
+mask_14: area=1282, iou=0.945, stability=0.972
+mask_15: area=1694, iou=0.941, stability=0.978
+mask_16: area=1068, iou=0.941, stability=0.983
+mask_17: area=7184, iou=0.938, stability=0.958
+mask_18: area=29436, iou=0.934, stability=0.957
+mask_19: area=2986, iou=0.934, stability=0.961
+mask_20: area=3186, iou=0.934, stability=0.966
+mask_21: area=25884, iou=0.930, stability=0.964
+mask_22: area=608, iou=0.918, stability=0.960
+mask_23: area=111333, iou=0.914, stability=0.960
+mask_24: area=11298, iou=0.895, stability=0.952

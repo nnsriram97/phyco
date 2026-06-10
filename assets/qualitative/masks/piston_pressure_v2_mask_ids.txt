@@ -1,0 +1,41 @@
+# Mask ID Information
+# Total masks: 33
+# Generated from: piston_pressure_v2.png
+
+# Selected as foreground:
+foreground_mask_ids: 1
+
+# All mask IDs and their areas:
+mask_0: area=1402646, iou=0.996, stability=0.991
+mask_1: area=51055, iou=0.992, stability=0.988
+mask_2: area=20394, iou=0.984, stability=0.986
+mask_3: area=15890, iou=0.980, stability=0.985
+mask_4: area=18129, iou=0.980, stability=0.986
+mask_5: area=12444, iou=0.980, stability=0.978
+mask_6: area=20880, iou=0.980, stability=0.987
+mask_7: area=15937, iou=0.980, stability=0.987
+mask_8: area=57735, iou=0.977, stability=0.973
+mask_9: area=37310, iou=0.977, stability=0.973
+mask_10: area=7155, iou=0.977, stability=0.975
+mask_11: area=16589, iou=0.977, stability=0.982
+mask_12: area=20994, iou=0.977, stability=0.985
+mask_13: area=27437, iou=0.973, stability=0.956
+mask_14: area=51593, iou=0.973, stability=0.974
+mask_15: area=52444, iou=0.973, stability=0.964
+mask_16: area=52014, iou=0.973, stability=0.976
+mask_17: area=17663, iou=0.973, stability=0.964
+mask_18: area=18243, iou=0.973, stability=0.969
+mask_19: area=17893, iou=0.973, stability=0.975
+mask_20: area=32698, iou=0.969, stability=0.965
+mask_21: area=32690, iou=0.969, stability=0.965
+mask_22: area=1410, iou=0.965, stability=0.983
+mask_23: area=11765, iou=0.965, stability=0.965
+mask_24: area=17221, iou=0.961, stability=0.954
+mask_25: area=2333, iou=0.961, stability=0.978
+mask_26: area=291319, iou=0.961, stability=0.950
+mask_27: area=17237, iou=0.957, stability=0.956
+mask_28: area=18256, iou=0.957, stability=0.984
+mask_29: area=16674, iou=0.957, stability=0.979
+mask_30: area=11990, iou=0.953, stability=0.951
+mask_31: area=3762, iou=0.949, stability=0.953
+mask_32: area=293251, iou=0.918, stability=0.976

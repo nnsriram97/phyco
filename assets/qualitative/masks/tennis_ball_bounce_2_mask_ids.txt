@@ -1,0 +1,21 @@
+# Mask ID Information
+# Total masks: 13
+# Generated from: tennis_ball_bounce_2.png
+
+# Selected as foreground:
+foreground_mask_ids: 2
+
+# All mask IDs and their areas:
+mask_0: area=200902, iou=0.996, stability=0.980
+mask_1: area=201778, iou=0.992, stability=0.982
+mask_2: area=76513, iou=0.992, stability=0.990
+mask_3: area=59183, iou=0.992, stability=0.957
+mask_4: area=261728, iou=0.992, stability=0.989
+mask_5: area=261905, iou=0.988, stability=0.992
+mask_6: area=431395, iou=0.984, stability=0.980
+mask_7: area=431339, iou=0.984, stability=0.980
+mask_8: area=8658, iou=0.969, stability=0.978
+mask_9: area=10162, iou=0.969, stability=0.973
+mask_10: area=2926, iou=0.961, stability=0.953
+mask_11: area=2940, iou=0.961, stability=0.956
+mask_12: area=1687, iou=0.930, stability=0.957
